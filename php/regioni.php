@@ -3,7 +3,7 @@
     <head>
         <title>ANALISI REGIONALE</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="/dexma/js/myscript.js?version=<?=time()?>"></script>
+        <script src="../js/myscript.js?version=<?=time()?>"></script>
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         <script type="text/javascript">
         google.charts.load('current', {
@@ -25,13 +25,13 @@
         <nav class="navbar navbar-expand-sm justify-content-center ">
             <ul class="navbar-nav">
                 <li class="nav-item btn btn-secondary mr-2">
-                <a class="nav-link" href="/dexma/php/rapporto.php"  style="color:#adad85;">ANALISI RAPPORTO</a>
+                <a class="nav-link" href="../php/rapporto.php"  style="color:#adad85;">ANALISI RAPPORTO</a>
                 </li>
                 <li class="nav-item btn btn-secondary mr-2">
-                <a class="nav-link" href="/dexma/php/ultimi10_Giorni.php" style="color:#adad85; ">ANALISI  BOLLETTINI</a>
+                <a class="nav-link" href="../php/ultimi10_Giorni.php" style="color:#adad85; ">ANALISI  BOLLETTINI</a>
                 </li>
                 <li class="nav-item btn btn-secondary">
-                <a class="nav-link" href="/dexma/index.html"  style="color:#adad85;">HOMEPAGE</a>
+                <a class="nav-link" href="../index.html"  style="color:#adad85;">HOMEPAGE</a>
                 </li>
             </ul>
         </nav>
